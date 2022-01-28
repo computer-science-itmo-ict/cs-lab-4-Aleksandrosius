@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "test_1",
+      "setup": "",
+      "run": "bash script.bash localhost 127.0.0.1",
+      "input": "",
+      "output": "HOST IS UP\r\nHOST IS UP",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "test_2",
+      "setup": "",
+      "run": "bash script.bash 55.255.255.60",
+      "input": "",
+      "output": "HOST IS DOWN",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "test_3",
+      "setup": "",
+      "run": "bash script.bash localhost",
+      "input": "",
+      "output": "HOST IS UP",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "test_4",
+      "setup": "",
+      "run": "bash script.bash 127.0.0.1",
+      "input": "",
+      "output": "HOST IS UP",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
